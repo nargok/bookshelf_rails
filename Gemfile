@@ -34,6 +34,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootstrap', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'devise'
+gem 'annotate'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
