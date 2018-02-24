@@ -35,6 +35,7 @@ gem 'bootstrap', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'devise'
 gem 'annotate'
+gem 'letter_opener_web'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
