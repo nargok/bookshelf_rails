@@ -2,6 +2,7 @@ class HomeController < ApplicationController
   before_action :move_to_index, except: :index
 
   def index
+    @user = current_user
   end
 
   private

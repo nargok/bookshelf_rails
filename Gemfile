@@ -38,6 +38,7 @@ gem 'annotate'
 gem 'letter_opener_web'
 gem 'sidekiq'
 gem 'sinatra'
+gem 'paperclip', '~> 5.0.0'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

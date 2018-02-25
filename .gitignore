@@ -30,3 +30,4 @@ memo.md
 config/secrets.yml.key
 
 *.rdb
+public/system
