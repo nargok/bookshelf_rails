@@ -36,6 +36,8 @@ gem 'jquery-rails'
 gem 'devise'
 gem 'annotate'
 gem 'letter_opener_web'
+gem 'sidekiq'
+gem 'sinatra'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
