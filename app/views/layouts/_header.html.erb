@@ -9,5 +9,11 @@
         <%= link_to 'ログアウト', destroy_user_session_path, method: :delete, class: 'nav-link text-secondary' %>
       </li>
     </ul>
+  <% else %>
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <%= link_to 'ログイン', new_user_session_path, class: 'nav-link text-secondary' %>
+      </li>
+
   <% end %>
 </nav>

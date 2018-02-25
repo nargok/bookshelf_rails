@@ -28,3 +28,5 @@ vendor/*
 memo.md
 # Ignore encrypted secrets key file.
 config/secrets.yml.key
+
+*.rdb
