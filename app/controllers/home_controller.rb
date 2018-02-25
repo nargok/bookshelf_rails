@@ -3,6 +3,7 @@ class HomeController < ApplicationController
 
   def index
     @user = current_user
+    @books = Book.order('created_at desc')
   end
 
   private

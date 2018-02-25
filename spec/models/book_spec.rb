@@ -3,10 +3,10 @@
 # Table name: books
 #
 #  id         :integer          not null, primary key
-#  users_id   :integer
 #  title      :string(255)      not null
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
+#  user_id    :integer
 #
 
 require 'rails_helper'
