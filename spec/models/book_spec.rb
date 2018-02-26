@@ -20,7 +20,7 @@ RSpec.describe Book, type: :model do
 
   it "is valid with a title" do
     book = Book.create(
-                   users_id: user.id,
+                   user_id: user.id,
                    title: "Ruby on Rails"
     )
     expect(book).to be_valid
@@ -28,7 +28,7 @@ RSpec.describe Book, type: :model do
 
   it "is invalid without a title" do
     book = Book.create(
-        users_id: user.id,
+        user_id: user.id,
         title: nil
     )
     book.valid?
