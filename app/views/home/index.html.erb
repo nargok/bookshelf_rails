@@ -12,6 +12,21 @@
         </div>
     </div>
     <div class="col-md-9 col-12">
+      <!-- 検索条件を指定してindexアクションを実行する-->
+      <%= form_for @search_form, as: :search, url: :home, html: { method: :get } do |f| %>
+        <div class="input-group pb-4 mx-0">
+          <!--TODO モーダルをやめて画面遷移にする modalにすることのメリットを感じないため-->
+          <%= f.text_field :title, class: "form-control" %>
+          <span class="input-group-btn">
+            <button class="btn btn-primary">
+              検索
+            </button>
+          </span>
+        </div>
+        <div class="modal fade" id="book_input">
+          <%= render partial: 'learnings_field' %>
+        </div>
+      <% end %>
       <%= render partial: 'book', collection: @books %>
     </div>
   <% else %>
